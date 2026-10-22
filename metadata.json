@@ -1,0 +1,6 @@
+{
+  "name": "Sweet Cravings | The Homemade",
+  "description": "Premium homemade bakery for artisanal cakes, cupcakes, cookies, macarons and desserts with custom WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

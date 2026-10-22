@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-burgundy: #A83255;
+    --color-cream: #FBF3DE;
+    --color-blush: #F4B6C2;
+    --color-chocolate: #5A3825;
+    --color-gold: #C9A24B;
+  }
+
+  body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FBF3DE;
+    color: #5A3825;
+  }
+}
+
+.font-script {
+  font-family: 'Great Vibes', 'Dancing Script', cursive;
+}
+
+.font-heading {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Papercraft Layered Effects */
+.paper-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px -2px rgba(90, 56, 37, 0.07), 0 1px 3px rgba(90, 56, 37, 0.05);
+  border: 1px solid rgba(201, 162, 75, 0.22);
+  position: relative;
+}
+
+.paper-card-elevated {
+  background: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0 12px 30px -4px rgba(168, 50, 85, 0.12), 0 4px 12px rgba(90, 56, 37, 0.06);
+  border: 1.5px solid rgba(201, 162, 75, 0.35);
+}
+
+.gold-frame {
+  border: 2px solid #C9A24B;
+  box-shadow: inset 0 0 0 2px rgba(251, 243, 222, 0.8), 0 6px 18px rgba(90, 56, 37, 0.12);
+}
+
+.paper-cut-shadow {
+  filter: drop-shadow(0 3px 6px rgba(90, 56, 37, 0.18));
+}
+
+/* Hide scrollbars while allowing smooth scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
